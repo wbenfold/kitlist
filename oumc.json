@@ -1,0 +1,436 @@
+{
+  "categories": [
+    {
+      "id":   "trips",
+      "name": "Trips",
+      "tags": [
+        { "id": "trip_norwaleshut",     "text": "North Wales hut meet"    },
+        { "id": "trip_peakday",         "text": "Peak District daytrip"   },
+        { "id": "trip_pembroke",        "text": "Pembroke weekend"        },
+        { "id": "trip_lakes",           "text": "Lake District weekend"   },
+        { "id": "trip_sportday",        "text": "Sport daytrip"           },
+        { "id": "trip_wye",             "text": "Wye Valley daytrip"      },
+        { "id": "trip_alps",            "text": "Holiday in the Alps"     },
+        { "id": "trip_font",            "text": "Road-trip to Fontainebleau" },
+        { "id": "trip_euro_sport",      "text": "Sport climbing in Spain"    },
+        { "id": "trip_tafraoute",       "text": "Trad climbing in Tafraout"  }
+      ]
+    },
+    {
+      "id":   "activities",
+      "name": "Activities",
+      "tags": [
+        { "id": "walking",              "text": "Walking"             },
+        { "id": "winter_walking",       "text": "Moving on snow/ice"  },
+        { "id": "climb_rock",           "text": "Moving on rock"      },
+        { "id": "climb_multipitch",     "text": "Multipitch"          },
+        { "id": "climb_ice",            "text": "Ice climbing"        },
+        { "id": "climb_scrambling",     "text": "Scrambling"          },
+        { "id": "climb_bouldering",     "text": "Bouldering"          },
+        { "id": "climb_sport",          "text": "Sport climbing"      },
+        { "id": "climb_trad",           "text": "Trad climbing"       },
+        { "id": "abseil_in",            "text": "Abseiling in"        },
+        { "id": "climb_roped",          "text": "Roped-up climbing"   }
+      ]
+    },
+    {
+      "id":   "location",
+      "name": "Locations",
+      "tags": [
+        { "id": "loc_avon",             "text": "Avon Gorge" },
+        { "id": "loc_cheddar",          "text": "Cheddar Gorge" },
+        { "id": "loc_fcq",              "text": "Fairy Cave Quarry" },
+        { "id": "loc_lakes",            "text": "Lake District" },
+        { "id": "loc_norwales",         "text": "North Wales"   },
+        { "id": "loc_peak",             "text": "Peak District" },
+        { "id": "loc_pembroke",         "text": "Pembroke" },
+        { "id": "loc_portland",         "text": "Portland" },
+        { "id": "loc_scotland",         "text": "Scotland" },
+        { "id": "loc_swanage",          "text": "Swanage"  },
+        { "id": "loc_wye",              "text": "Wye Valley" },
+
+        { "id": "mountain",             "text": "Mountainous/remote"  },
+        { "id": "outdoors",             "text": "Outdoor activity"    },
+        { "id": "travel_leavinghome",   "text": "Leaving the house"         },
+        { "id": "travel_diffcountry",   "text": "Going out of the country"  }
+      ]
+    },
+    {
+      "id":   "logistics",
+      "name": "Logistics",
+      "tags": [
+        { "id": "travel_road",              "text": "Driving"               },
+        { "id": "travel_flying",            "text": "Flying"                },
+        { "id": "accommodation_house",      "text": "House/apartment/hotel" },
+        { "id": "accommodation_bunkhouse",  "text": "Hut/bunkhouse"         },
+        { "id": "accommodation_camping",    "text": "Camping"               },
+        { "id": "accommodation_bivvy",      "text": "Bivouacking"           },
+        { "id": "duration_day",             "text": "Daytrip"               },
+        { "id": "duration_multiday",        "text": "Weekend or longer"     }
+      ]
+    },
+    {
+      "id":   "weather",
+      "name": "Weather",
+      "tags": [
+        { "id": "weather_hot",          "text": "Sunshine"  },
+        { "id": "weather_cold",         "text": "Cold"      },
+        { "id": "weather_freezing",     "text": "Freezing"  },
+        { "id": "weather_wet",          "text": "Wet"       }
+      ]
+    },
+    {
+      "id":   "default",
+      "name": "Things",
+      "tags": [
+
+        { "id": "water",                "text": "Water"   },
+        { "id": "harness",              "text": "Harness" },
+        { "id": "flight_confirmation",  "text": "Flight confirmation" },
+        { "id": "belay",                "text": "Belay device and krab" },
+        { "id": "passport",             "text": "Passport" },
+        { "id": "insurance",            "text": "Insurance documents" },
+        { "id": "ehic",                 "text": "EHIC" },
+        { "id": "phone",                "text": "Mobile phone" },
+        { "id": "wallet",               "text": "Wallet/purse" },
+        { "id": "keys",                 "text": "House keys" },
+        { "id": "scarf",                "text": "Buff/scarf" },
+        { "id": "suncream",             "text": "Suncream" },
+        { "id": "chalkbag",             "text": "Chalkbag" },
+        { "id": "abseil_tat",           "text": "Abseil tat" },
+        { "id": "tat_knife",            "text": "Knife (for tat)" },
+        { "id": "toothbrush",           "text": "Toothbrush" },
+        { "id": "wash_kit",             "text": "Wash kit" },
+        { "id": "sleeping_bag",         "text": "Sleeping bag" },
+        { "id": "sleeping_bag_liner",   "text": "Sleeping bag liner" },
+        { "id": "rollmat",              "text": "Rollmat" },
+        { "id": "waterproofs",          "text": "Waterproofs" },
+        { "id": "rock_shoes",           "text": "Rock shoes" },
+        { "id": "headtorch",            "text": "Headtorch" },
+        { "id": "first_aid_kit",        "text": "First-aid kit" },
+        { "id": "whistle",              "text": "Whistle" },
+        { "id": "currency",             "text": "Foreign currency" },
+        { "id": "travel_adapter",       "text": "Travel adapter" },
+        { "id": "mountain_boots",       "text": "Mountain boots (and socks)" },
+        { "id": "crampons",             "text": "Crampons" },
+        { "id": "tech_axes",            "text": "Technical axes" },
+        { "id": "walking_axe",          "text": "Walking axe" },
+        { "id": "emergency_food",       "text": "Sugary snack" },
+        { "id": "helmet",               "text": "Helmet" },
+        { "id": "gloves",               "text": "Gloves" },
+        { "id": "camera",               "text": "Camera" },
+        { "id": "warm_clothes",         "text": "Warm layers" },
+        { "id": "survival_bag",         "text": "Survival bag" },
+        { "id": "clothes",              "text": "Spare clothes" },
+        { "id": "plates",               "text": "Mug, plate, cutlery" },
+        { "id": "prusiks",              "text": "Prusik loops" },
+        { "id": "lunch",                "text": "Lunch" },
+        { "id": "bivvy_bag",            "text": "Bivvy bag" },
+        { "id": "charger",              "text": "Phone/camera charger" },
+        { "id": "boots",                "text": "Walking boots" },
+
+
+        { "type": "group",  "id":   "scrambling_rope",
+                            "text": "Short/lightweight scrambling rope" },
+        { "type": "group",  "id":   "hut_details",
+                            "text": "Accommodation details/key/directions" },
+        { "type": "group", "id": "toilet_paper",    "text": "Toilet paper" },
+        { "type": "group", "id": "stove",           "text": "Stove, fuel and pots/pans" },
+        { "type": "group", "id": "abseil_rope",     "text": "Abseil rope" },
+        { "type": "group", "id": "bothy_bag",       "text": "Group shelter / bothy bag" },
+        { "type": "group", "id": "compass",         "text": "Compass" },
+        { "type": "group", "id": "map",             "text": "Map" },
+        { "type": "group", "id": "single_rope",     "text": "Single rope (plus bag/mat)" },
+        { "type": "group", "id": "double_ropes",    "text": "Double ropes" },
+        { "type": "group", "id": "quickdraws",      "text": "Sport draws" },
+        { "type": "group", "id": "maillons",        "text": "Maillons" },
+        { "type": "group", "id": "bouldering_mat",  "text": "Bouldering mat" },
+        { "type": "group", "id": "extra_slings",    "text": "Extra slings and screwgates"},
+        { "type": "group", "id": "rack",            "text": "Trad rack" },
+        { "type": "group", "id": "ice_screws",      "text": "Ice screws" },
+        { "type": "group", "id": "abalakov",        "text": "Abalakov threader" },
+        { "type": "group", "id": "guidebook",       "text": "Guidebook" },
+        { "type": "group", "id": "tent",            "text": "Tent" },
+
+        { "type": "bonus", "id": "belay_glasses", "text": "Belay glasses" },
+        { "type": "bonus", "id": "walking_poles", "text": "Walking poles" },
+        { "type": "bonus", "id": "swimwear",      "text": "Swimwear" },
+        { "type": "bonus", "id": "book",          "text": "A book to read" },
+        { "type": "bonus", "id": "warm_hat",      "text": "Warm hat/beanie" },
+        { "type": "bonus", "id": "sun_hat",       "text": "Sunhat/buff" },
+        { "type": "bonus", "id": "file",          "text": "File (for crampons/axes)" },
+        { "type": "bonus", "id": "thermos",       "text": "Thermos" },
+        { "type": "bonus", "id": "hipflask",      "text": "Hipflask" },
+        { "type": "bonus", "id": "beer",          "text": "Beer" }
+      ]
+    }
+  ],
+
+  "rules": [
+    {
+      "condition":  ["loc_avon"],
+      "implies":    ["climb_multipitch", "climb_trad", "travel_road"]
+    },
+    {
+      "condition":  ["loc_cheddar"],
+      "implies":    ["travel_road", "climb_sport"]
+    },
+    {
+      "condition":  ["loc_fcq"],
+      "implies":    ["travel_road", "climb_trad"],
+      "pack":       ["beer"]
+    },
+    {
+      "condition":  ["loc_lakes"],
+      "implies":    ["travel_road", "mountain"]
+    },
+    {
+      "condition":  ["loc_norwales"],
+      "implies":    ["travel_road"]
+    },
+    {
+      "condition":  ["loc_peak"],
+      "implies":    ["travel_road", "climb_rock"]
+    },
+    {
+      "condition":  ["loc_pembroke"],
+      "implies":    ["travel_road", "climb_trad"]
+    },
+    {
+      "condition":  ["loc_portland"],
+      "implies":    ["travel_road", "climb_sport"]
+    },
+    {
+      "condition":  ["loc_scotland"],
+      "implies":    ["duration_multiday", "mountain", "weather_cold", "weather_wet"],
+      "pack":       ["hipflask"]
+    },
+    {
+      "condition":  ["loc_swanage"],
+      "implies":    ["travel_road", "climb_rock"]
+    },
+    {
+      "condition":  ["loc_wye"],
+      "implies":    ["travel_road", "climb_rock"]
+    },
+
+
+    {
+      "condition":  ["outdoors"],
+      "implies":    ["travel_leavinghome"],
+      "pack":       ["water", "headtorch", "first_aid_kit", "camera"]
+    },
+    {
+      "condition":  ["weather_wet"],
+      "pack":       ["waterproofs"]
+    },
+    {
+      "condition":  ["weather_cold"],
+      "pack":       ["warm_hat", "scarf", "gloves", "warm_clothes", "thermos"]
+    },
+    {
+      "condition":  ["weather_freezing"],
+      "implies":    ["weather_cold", "weather_wet"]
+    },
+    {
+      "condition":  ["weather_hot"],
+      "pack":       ["suncream", "sun_hat"]
+    },
+
+    {
+      "condition":  ["mountain"],
+      "implies":    ["outdoors"],
+      "pack":       ["whistle", "map", "compass", "emergency_food"]
+    },
+    {
+      "condition":  ["mountain", "weather_cold"],
+      "pack":       ["bothy_bag"]
+    },
+    {
+      "condition":  ["mountain", "weather_freezing"],
+      "pack":       ["survival_bag"]
+    },
+
+
+
+    {
+      "condition":  ["walking"],
+      "implies":    ["mountain"],
+      "pack":       ["walking_poles", "boots"]
+    },
+
+    {
+      "condition":  ["winter_walking"],
+      "implies":    ["weather_freezing", "mountain"],
+      "pack":       ["mountain_boots", "crampons", "walking_axe", "file"]
+    },
+
+    {
+      "condition":  ["climb_rock"],
+      "implies":    ["outdoors"],
+      "pack":       ["rock_shoes", "chalkbag", "guidebook"]
+    },
+    {
+      "condition":  ["climb_multipitch"],
+      "implies":    ["climb_roped", "outdoors"],
+      "pack":       ["extra_slings", "prusiks"]
+    },
+    {
+      "condition":  ["climb_multipitch", "climb_trad"],
+      "implies":    ["climb_rock"],
+      "pack":       ["abseil_tat", "tat_knife"]
+    },
+    {
+      "condition":  ["climb_roped"],
+      "implies":    ["outdoors"],
+      "pack":       ["harness", "belay", "helmet"]
+    },
+    {
+      "condition":  ["climb_sport"],
+      "implies":    ["climb_roped", "climb_rock"],
+      "pack":       ["single_rope", "quickdraws", "maillons", "belay_glasses"]
+    },
+    {
+      "condition":  ["climb_trad"],
+      "implies":    ["climb_roped", "climb_rock"],
+      "pack":       ["double_ropes", "rack"]
+    },
+    {
+      "condition":  ["abseil_in"],
+      "implies":    ["climb_roped"],
+      "pack":       ["abseil_rope", "prusiks", "extra_slings"]
+    },
+    {
+      "condition":  ["climb_ice"],
+      "implies":    ["climb_roped", "winter_walking"],
+      "pack":       ["double_ropes", "ice_screws", "abalakov", "tech_axes", "guidebook"]
+    },
+    {
+      "condition":  ["climb_bouldering"],
+      "implies":    ["climb_rock"],
+      "pack":       ["bouldering_mat"]
+    },
+    {
+      "condition":  ["climb_scrambling"],
+      "implies":    ["climb_roped"],
+      "pack":       ["scrambling_rope"]
+    },
+    {
+      "condition":  ["travel_leavinghome"],
+      "pack":       ["keys", "wallet", "phone"]
+    },
+    {
+      "condition":  ["travel_flying"],
+      "implies":    ["travel_leavinghome"],
+      "pack":       ["flight_confirmation", "book"]
+    },
+    {
+      "condition":  ["travel_road"],
+      "implies":    ["travel_leavinghome"]
+    },
+    {
+      "condition":  ["travel_diffcountry"],
+      "implies":    ["travel_leavinghome"],
+      "pack":       ["passport", "insurance", "ehic", "currency", "travel_adapter"]
+    },
+    {
+      "condition":  ["duration_multiday"],
+      "implies":    ["travel_leavinghome"],
+      "pack":       ["toothbrush", "wash_kit", "clothes", "charger"]
+    },
+    {
+      "condition":  ["duration_day"],
+      "implies":    ["travel_leavinghome"],
+      "pack":       ["lunch"]
+    },
+
+    {
+      "condition":  ["accommodation_house"],
+      "implies":    ["travel_leavinghome"],
+      "pack":       ["hut_details"]
+    },
+    {
+      "condition":  ["accommodation_bunkhouse"],
+      "implies":    ["travel_leavinghome"],
+      "pack":       ["sleeping_bag", "sleeping_bag_liner", "hut_details"]
+    },
+    {
+      "condition":  ["accommodation_camping"],
+      "implies":    ["travel_leavinghome"],
+      "pack":       ["tent", "sleeping_bag", "sleeping_bag_liner", "rollmat", "toilet_paper", "headtorch", "stove", "plates"]
+    },
+    {
+      "condition":  ["accommodation_bivvy"],
+      "implies":    ["travel_leavinghome"],
+      "pack":       ["bivvy_bag", "sleeping_bag", "sleeping_bag_liner", "rollmat", "toilet_paper", "headtorch", "stove", "plates"]
+    },
+
+
+
+
+    {
+      "condition":  ["trip_lakes"],
+      "implies":    ["loc_lakes", "duration_multiday", "climb_multipitch", "walking",
+                     "accommodation_camping"]
+    },
+    {
+      "condition":  ["trip_norwaleshut"],
+      "implies":    ["loc_norwales", "duration_multiday", "mountain", "climb_multipitch",
+                     "climb_trad", "accommodation_bunkhouse"],
+      "pack":       ["beer"]
+    },
+    {
+      "condition":  ["trip_norwaleshut", "weather_freezing"],
+      "implies":    ["climb_ice"]
+    },
+    {
+      "condition":  ["trip_peakday"],
+      "implies":    ["loc_peak", "duration_day", "climb_trad", "climb_bouldering"]
+    },
+    {
+      "condition":  ["trip_pembroke"],
+      "implies":    ["loc_pembroke", "duration_multiday", "abseil_in",
+                     "accommodation_camping"]
+    },
+    {
+      "condition":  ["trip_sportday"],
+      "implies":    ["travel_road", "duration_day", "climb_sport"]
+    },
+    {
+      "condition":  ["trip_wye"],
+      "implies":    ["loc_wye", "travel_road", "duration_day", "climb_sport", "climb_trad",
+                     "climb_multipitch"]
+    },
+    {
+      "condition":  ["trip_font"],
+      "implies":    ["duration_multiday", "travel_road", "climb_bouldering",
+                   "accommodation_camping", "travel_diffcountry"]
+    },
+    {
+      "condition":  ["trip_alps"],
+      "implies":    ["duration_multiday", "travel_flying", "climb_multipitch", "climb_ice",
+                   "winter_walking", "accommodation_camping", "weather_freezing",
+                   "weather_hot", "travel_diffcountry", "climb_trad", "climb_sport"]
+    },
+    {
+      "condition":  ["trip_euro_sport"],
+      "implies":    ["duration_multiday", "travel_flying", "climb_multipitch",
+                     "accommodation_house", "weather_hot", "travel_diffcountry", "climb_sport"],
+      "pack":       ["swimwear"]
+    },
+    {
+      "condition":  ["trip_tafraoute"],
+      "implies":    ["duration_multiday", "travel_flying", "climb_multipitch",
+                     "accommodation_house", "weather_hot", "travel_diffcountry", "climb_trad", "mountain"],
+      "pack":       ["swimwear"]
+    }
+  ],
+
+  "substitutions": [
+    ["double_ropes",    ["scrambling_rope", "single_rope"]],
+    ["single_rope",     ["scrambling_rope"]],
+    ["mountain_boots",  ["boots"]],
+    ["tech_axes",       ["walking_axe"]],
+    ["rack",            ["quickdraws"]]
+  ]
+}

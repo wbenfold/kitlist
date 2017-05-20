@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kitlist</title>
+    <link rel="stylesheet" type="text/css" href="kitlist.css">
+  </head>
+  <body>
+    <h1>What should I bring?</h1>
+    <span id="feedback"></span>
+    <div id="content">
+      <svg width="100%" height="100%" id="kitlist"></svg>
+    </div>
+  </body>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="kitlist.js"></script>
+  <script>
+    run_kitlist("svg#kitlist", "h1", "oumc");
+  </script>
+</html>
